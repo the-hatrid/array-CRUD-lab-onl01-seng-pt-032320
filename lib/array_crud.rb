@@ -5,9 +5,7 @@ end
 
 def create_an_array
   create_an_array = ["I","am", "really", "learning"]
-  
-  
-  create_an_array[3]
+    create_an_array[3]
   create_an_array.first
   create_an_array[-1]
   
@@ -23,7 +21,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  wow = create_an_array.shift
+  arrays = create_an_array.pop
 end
 
 def remove_element_from_start_of_array(array)
