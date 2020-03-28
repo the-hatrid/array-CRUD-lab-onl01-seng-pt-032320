@@ -9,7 +9,7 @@ def create_an_array
   create_an_array.unshift("wow")
   create_an_array[3]
   create_an_array.first
-  
+  create_an_array.last
   wow = create_an_array.shift
   arrays = create_an_array.pop
 end
