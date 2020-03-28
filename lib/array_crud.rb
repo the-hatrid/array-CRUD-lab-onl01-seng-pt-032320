@@ -7,7 +7,8 @@ def create_an_array
   create_an_array = ["I","am", "really", "learning"]
   create_an_array << "arrays!"
   create_an_array.unshift("wow")
-  wow = 
+  wow = create_an_array.shift
+  
 end
 
 def add_element_to_end_of_array(array, element)
