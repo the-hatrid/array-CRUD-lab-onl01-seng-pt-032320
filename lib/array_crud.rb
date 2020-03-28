@@ -5,7 +5,7 @@ end
 
 def create_an_array
   create_an_array = ["I","am", "really", "learning"]
-    create_an_array[3]
+    
   create_an_array.first
   create_an_array[-1]
   
