@@ -8,7 +8,7 @@ def create_an_array
   create_an_array << "arrays!"
   create_an_array.unshift("wow")
   wow = create_an_array.shift
-  arrays! = create_an_array.pop
+  arrays = create_an_array.pop
 end
 
 def add_element_to_end_of_array(array, element)
