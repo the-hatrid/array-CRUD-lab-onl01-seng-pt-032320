@@ -5,12 +5,8 @@ end
 
 def create_an_array
   create_an_array = ["I","am", "really", "learning"]
-    
-  
-  
-  
-  arrays = create_an_array.pop
-end
+   
+   end
 
 def add_element_to_end_of_array(array, element)
   create_an_array << "arrays!"
@@ -37,5 +33,5 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  
+  create_an_array[-1]
 end
